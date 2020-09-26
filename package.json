@@ -1,0 +1,23 @@
+{
+  "name": "mangadex-chapter-downloader-api",
+  "version": "1.0.0",
+  "description": "downloads, encode, and gzips mangadex chapters (remotely)",
+  "main": "index.js",
+  "author": "zura jyanai katsura da",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.0.1",
+    "image-downloader": "^4.0.1",
+    "morgan": "^1.10.0"
+  }
+}
