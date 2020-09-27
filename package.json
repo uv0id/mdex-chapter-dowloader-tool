@@ -9,6 +9,9 @@
     "dev": "nodemon index.js",
     "start": "node index.js"
   },
+  "engines": {
+    "node": "14.10"
+  },
   "dependencies": {
     "archiver": "^5.0.2",
     "axios": "^0.20.0",
