@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "engines": {
-    "node": "14.10"
+    "node": "14.x"
   },
   "dependencies": {
     "archiver": "^5.0.2",
@@ -21,6 +21,8 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.1",
     "image-downloader": "^4.0.1",
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0",
     "morgan": "^1.10.0"
   }
 }
